@@ -3,7 +3,11 @@ Control items with TreeView
 
 Functions:
 
-- Drag and Drop Items
+- Add Item
+- Add SubItem
+- Delete Item SubItem
+- Drag and Drop Items on TreeView
+
 
 
 
