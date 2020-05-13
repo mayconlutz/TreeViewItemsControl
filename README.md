@@ -1,4 +1,4 @@
-# TreeViewItemsControl
+# Simple tree view control
 Control items with TreeView
 
 Functions:
