@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TreeViewItemsControl"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Tree View Items Control (By: Maycon Lutz)" Height="527.801" Width="621.846">
     <Grid>
-        
+        <TreeView x:Name="TreeViewControl" HorizontalAlignment="Left" Height="477" Margin="10,10,0,0" VerticalAlignment="Top" Width="311"/>
+        <Button x:Name="ButtonNewItem" Content="Add Main Item" HorizontalAlignment="Left" Height="28" Margin="326,58,0,0" VerticalAlignment="Top" Width="148" Click="ButtonNewItem_Click" ToolTip="Adiciona item"/>
+        <Button x:Name="ButtonNewSubItem" Content="Add SubItem Selected Item" HorizontalAlignment="Left" Height="28" Margin="326,91,0,0" VerticalAlignment="Top" Width="148" Click="ButtonNewSubItem_Click" ToolTip="Adiciona subitem a apartir do item selecionado na treeview"/>
+        <TextBox x:Name="TextBoxNewItem" HorizontalAlignment="Left" Height="28" Margin="326,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <Button x:Name="ButtonDeleteSelectedItem" Content="Delete Selected Item" HorizontalAlignment="Left" Height="28" Margin="326,124,0,0" VerticalAlignment="Top" Width="148" ToolTip="Adiciona subitem a apartir do item selecionado na treeview" Click="ButtonDeleteSelectedItem_Click"/>
+
     </Grid>
 </Window>
