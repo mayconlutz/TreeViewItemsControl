@@ -25,6 +25,10 @@ namespace TreeViewItemsControl
             InitializeComponent();
         }
 
+
+
+
+
         private void ButtonNewItem_Click(object sender, RoutedEventArgs e)
         {
             TreeViewItem Child = new TreeViewItem();
